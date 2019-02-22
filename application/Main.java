@@ -22,7 +22,6 @@ public class Main extends Application {
 		
 		citiLoginController.primaryStage = primaryStage;
 		Scene scene=new Scene(root);
-//		scene.getStylesheets().add(getClass().getResource("add.css").toString());
 		primaryStage.setScene(scene);
 		
 		primaryStage.show();
